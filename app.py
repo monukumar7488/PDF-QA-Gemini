@@ -208,7 +208,7 @@ def main():
         question = input("\nAsk your question:\n> ")
 
         if question.lower().strip() == "exit":
-            print("\nGoodbye!")
+            print("\nGoodbye! Monu Kumar")
             break
 
         if not question.strip():
@@ -223,7 +223,7 @@ def main():
 
         # Styled output display block using rich
         print("\n" + "=" * 50)
-        console.print("[bold cyan]AI ANSWER[/bold cyan]")
+        console.print("[bold cyan]AI ANSWER (Monu Kumar)[/bold cyan]")
         print("=" * 50)
         
         # This renders Gemini's markdown response cleanly in the terminal
