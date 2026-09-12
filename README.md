@@ -34,6 +34,7 @@ Create and activate a fresh Python virtual environment (`venv`):
 ```bash
 # Windows (PowerShell)
 python -m venv venv
+venv\Scripts\activate
 .\venv\Scripts\Activate.ps1
 
 # Mac / Linux
